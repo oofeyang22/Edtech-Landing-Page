@@ -1,0 +1,23 @@
+{
+    "images": [
+        {
+            "src": "https://i.postimg.cc/d3FRksM9/Girl.jpg",
+            "alt": "girl",
+            "comment": "Tekamp is the best thing to have ever happened to me. They provide a solid training and free resources that I have used to build my design skills.",
+            "name": "Susan Ray"
+        },
+        {
+            "src": "https://i.postimg.cc/fT2XZjbC/Black.jpg",
+            "alt": "man thinking",
+            "comment": "Honestly, I couldn't have chosen a better platform to learn graphics design. The instructors helped understand the fundamental concepts of design.",
+            "name": "John Williams"
+
+        },
+        {
+            "src": "https://i.postimg.cc/NFNysBQF/Glasses.jpg",
+            "alt": "man smiling",
+            "comment": "Thanks to Tekamp, I can code now and I hope to build on all I have learnt with them. I had doubts about my coding skills but the instructors were very motivating.",
+            "name": "Harry Wings"
+        }
+    ]
+}
