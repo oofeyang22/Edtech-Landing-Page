@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -37,9 +38,15 @@ const Navbar = () => {
         </div>
       </div>
       <div className={isOpen ? 'block md:hidden' : 'hidden'}>
-        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <div className="bg-[#008000] px-2 pt-2 pb-3 space-y-1 sm:px-3">
           <Link to="/" className="text-white block px-3 py-2 rounded-md text-base font-medium">Home</Link>
           <Link to="/about" className="text-white block px-3 py-2 rounded-md text-base font-medium">About</Link>
+          <Link to="/" className="text-white block px-3 py-2 rounded-md text-base font-medium">Courses</Link>
+          <Link to="/about" className="text-white block px-3 py-2 rounded-md text-base font-medium">Blog</Link>
+          <div className='pl-1'>
+                  <Link to="/Login" className="text-white hover:text-[#008000] px-3 py-2 rounded-md text-sm font-bold">Log in</Link>
+                  <Link to="/Signup"><button className='bg-white w-[5rem] h-[3rem] text-center text-black font-bold'>Sign up</button></Link>
+          </div>
           {/* Add other links here */}
         </div>
       </div>
@@ -48,5 +55,8 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
 
 
