@@ -48,7 +48,7 @@ const Tutors = () => {
                 </div>
                 <div>
                     <div>
-                        <img src={Nicolas} alt="chart" class="w-[250px] h-[237px]"/>
+                        <img src={Nicolas} alt="chart" class="w-[320px] h-320px md:w-[250px] h-[237px]"/>
                     </div>
                     <p class="px-4 font-bold mt-3">John Muller</p>
                     <p class="px-4 font-bold text-[#008000] mt-1 mb-2">Data Analyst</p>

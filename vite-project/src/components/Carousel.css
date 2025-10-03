@@ -87,7 +87,7 @@
   .indicators {
   display: flex;
   position: absolute;
-  bottom: -18rem;
+  bottom: -20rem;
   left: 10rem;
 }
 }

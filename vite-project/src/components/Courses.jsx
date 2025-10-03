@@ -13,43 +13,43 @@ const Courses = () => {
             <div class="flex flex-col md:flex-row px-12 gap-6 md:gap-10">
                 <div class="bg-white shadow hover:shadow-2xl">
                     <div>
-                        <img src={Code1} alt="code1"/>
+                        <img class="w-[480px] md:w-[400px]" src={Code1} alt="code1"/>
                     </div>
-                    <p class="px-4 font-bold">The Ultimate JavaScript Course</p>
+                    <p class="px-4 font-bold mt-4">The Ultimate JavaScript Course</p>
 
-                    <div class="flex flex-row gap-[100px] md:gap-[160px] mt-3">
+                    <div class="flex flex-row gap-[100px] md:gap-[160px] mt-3 mb-6">
                         <p class="px-4 text-[#008000]">$50</p>
                         <div class="flex justify-evenly ml-[-3rem]">
                             <img src={Stars} alt="Stars"/>
-                            <p>(200)</p>
+                            <p class="ml-4 md:ml-2">(200)</p>
                         </div>
                     </div>
                 </div>
                 <div class="bg-white shadow hover:shadow-2xl">
                     <div>
-                        <img src={Code2} alt="code2"/>
+                        <img class="w-[480px] md:w-[400px]" src={Code2} alt="code2"/>
                     </div>
-                    <p class="px-4 font-bold">Adobe Photoshop Masterclass</p>
+                    <p class="px-4 font-bold mt-4">Adobe Photoshop Masterclass</p>
 
                     <div class="flex flex-row gap-[100px] md:gap-[160px] mt-3 mb-6">
                         <p class="px-4 text-[#008000]">$40</p>
                         <div class="flex justify-evenly ml-[-3rem]">
                             <img src={Stars} alt="stars"/>
-                            <p>(300)</p>
+                            <p class="ml-4 md:ml-2">(300)</p>
                         </div>
                     </div>
                 </div>
                 <div class="bg-white shadow hover:shadow-2xl">
                     <div>
-                        <img src={Code3} alt="code3"/>
+                        <img class="w-[480px] md:w-[400px]" src={Code3} alt="code3"/>
                     </div>
-                    <p class="px-4 font-bold">Python Programming Mega Course</p>
+                    <p class="px-4 font-bold mt-4">Python Programming Mega Course</p>
 
-                    <div class="flex flex-row gap-[100px] md:gap-[160px] mt-3">
+                    <div class="flex flex-row gap-[100px] md:gap-[160px] mt-3 mb-6">
                         <p class="px-4 text-[#008000]">$30</p>
                         <div class="flex justify-evenly ml-[-3rem]">
                             <img src={Stars} alt="stars"/>
-                            <p>(300)</p>
+                            <p class="ml-4 md:ml-2">(300)</p>
                         </div>
                     </div>
                 </div>
