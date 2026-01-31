@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Man from '../assets/Laptop.jpg'
+import Man from '../assets/Laptop (1).jpg'
 const Hero = () => {
     return (
         <div class="mb-[45px] md:mb-[60px] mt-12 max-h-[600px] md:max-h-[400px] md:px-12 px-4 text-xs md:text-1xl grid md:grid-cols-2 grid-rows-2 gap-6 bg-[#f0f4ff]">

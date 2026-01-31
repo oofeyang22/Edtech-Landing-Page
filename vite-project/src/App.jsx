@@ -7,8 +7,8 @@ import '@fortawesome/fontawesome-free/css/all.css';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar'
-import Home from './components/Home'
-import About from './components/About'
+//import Home from './components/Home'
+//import About from './components/About'
 import Hero from './components/Hero'
 import Company from './components/Company';
 import Categories from "./components/Categories"
@@ -35,10 +35,6 @@ function App() {
       <Footer/>
 
       
-      <Routes>
-        <Route path="/" exact component={<Home/>} />
-        <Route path="/about" component={<About/>} />
-      </Routes>
     </Router>
   )
 }
