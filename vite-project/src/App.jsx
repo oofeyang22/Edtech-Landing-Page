@@ -17,24 +17,40 @@ import Tutors from "./components/Tutors"
 import Carousel from "./components/Carousel"
 import { images } from "./Data/Carousel.json"
 import Footer from "./components/Footer"
-//import Carousel from './components/Carousel'
+// Import Cookie component
+import Cookie from './components/Cookie'
+import PrivacyPolicy from './components/Privacy';
+// Import Privacy Policy component
+
+
 function App() {
   //const [count, setCount] = useState(0)
 
   return (
-
     <Router>
       <Navbar />
-
-      <Hero/>
-      <Company/>
-      <Categories/>
-      <Courses/>
-      <Tutors/>
-      <Carousel data={images}/>
-      <Footer/>
-
       
+      {/* Add Routes */}
+      <Routes>
+        {/* Home route with all components */}
+        <Route path="/" element={
+          <>
+            <Hero/>
+            <Company/>
+            <Categories/>
+            <Courses/>
+            <Tutors/>
+            <Carousel data={images}/>
+          </>
+        } />
+        
+        {/* Privacy Policy route */}
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      </Routes>
+      
+      {/* Footer and Cookie consent (visible on all pages) */}
+      <Footer/>
+      <Cookie />
     </Router>
   )
 }
