@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const PrivacyPolicy = () => {
     return (
         <div className="privacy-policy-container" style={{ padding: '40px 20px', maxWidth: '800px', margin: '0 auto' }}>
-            {/* Add back to home link */}
+
             <div style={{ marginBottom: '20px' }}>
                 <Link 
                     to="/" 
@@ -58,7 +58,7 @@ const PrivacyPolicy = () => {
                 <p>If you have any questions about this Privacy Policy, please contact us at: privacy@example.com</p>
             </section>
 
-            {/* Optional: Add a button at the bottom */}
+
             <div style={{ marginTop: '40px', textAlign: 'center' }}>
                 <Link 
                     to="/" 
